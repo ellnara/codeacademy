@@ -1,0 +1,106 @@
+#graduates .heading {
+  text-align: center;
+}
+
+#graduates .heading .title-our h2 {
+  color: #3d3d3d;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+#graduates .heading .title-grads h2 {
+  color: #4b4a4a;
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+#graduates .heading .line {
+  width: 120px;
+  border: 2px solid #ffbc3e;
+  margin: 30px auto;
+}
+
+.seven-cols {
+  gap: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 80px;
+}
+
+.card-item {
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.card-item img {
+  width: 150px;
+  height: 150px;
+}
+
+.card-item .system {
+  padding: 10px;
+  color: white;
+  background-color: #00b45acc;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.card-item .design {
+  padding: 10px;
+  color: white;
+  background-color: #ffcd05a8;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.card-item .programming {
+  padding: 10px;
+  color: white;
+  background-color: #2382c8;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.card-item .marketing {
+  padding: 10px;
+  color: white;
+  background-color: #872891;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.card-item:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.card-item:hover .content {
+  visibility: visible;
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
